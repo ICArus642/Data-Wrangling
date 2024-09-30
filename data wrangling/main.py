@@ -11,3 +11,7 @@ limite =  cd.comprobar_input_limite_datos()
 #se filtran e imprimen los datos extraidos
 libreria_datos_extraidos = api.extraccion_datos_api(nombre_departamento, limite)
 ui.impresion_datos_extraidos(libreria_datos_extraidos)
+print("\n")
+
+ui.impresion_estadistica(libreria_datos_extraidos)
+ui.impresion_grafica(libreria_datos_extraidos)
